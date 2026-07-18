@@ -1,0 +1,35 @@
+{
+  "credentials_collected": false,
+  "files": [
+    {
+      "bytes": 1446944,
+      "path": "models/fixture-source.onnx",
+      "sha256": "2d8f2a65549968b53e3830e00f2bc88e7a2b3237809d4a927ac0bd4761c1dd2e"
+    },
+    {
+      "bytes": 1446989,
+      "path": "models/fixture-fp32.onnx",
+      "sha256": "65b2eadbdb8d4077d92303f21b60cbbc02a6b12426991cd10a106e3761a94b15"
+    },
+    {
+      "bytes": 372905,
+      "path": "models/fixture-int8.onnx",
+      "sha256": "87adfb162f98aa799c2386baedab3d92f78abfca4bb35a34e469fa97e2ca26af"
+    },
+    {
+      "bytes": 2775,
+      "path": "evidence/benchmark-report.json",
+      "sha256": "ecf5b0b93e678e36c419fff61708d5b6b6bbae42c58c8230a28818aa0b6ffd81"
+    },
+    {
+      "bytes": 679,
+      "path": "evidence/benchmark-summary.md",
+      "sha256": "d355041c4baf9406078eedd5d25a3a4550aed4fae71cd7ba250e7578372b5aeb"
+    }
+  ],
+  "identity_fields_collected": false,
+  "project": "ArmQuantLab",
+  "schema_version": 1,
+  "source_kind": "local_native_arm64_benchmark",
+  "status": "pass"
+}

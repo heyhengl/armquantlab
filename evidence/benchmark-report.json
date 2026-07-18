@@ -1,0 +1,104 @@
+{
+  "batches": [
+    {
+      "batch_size": 1,
+      "fp32_items_per_second": 123075.37,
+      "fp32_latency_ms": {
+        "p50": 0.008125,
+        "p95": 0.008256
+      },
+      "int8_items_per_second": 97834.411,
+      "int8_latency_ms": {
+        "p50": 0.010221,
+        "p95": 0.010282
+      },
+      "output_parity": {
+        "cosine_similarity": 0.999891129,
+        "max_absolute_error": 0.015464677,
+        "mean_absolute_error": 0.005146211
+      },
+      "p50_speedup": 0.794915
+    },
+    {
+      "batch_size": 8,
+      "fp32_items_per_second": 329122.147,
+      "fp32_latency_ms": {
+        "p50": 0.024307,
+        "p95": 0.02441
+      },
+      "int8_items_per_second": 421806.5,
+      "int8_latency_ms": {
+        "p50": 0.018966,
+        "p95": 0.019055
+      },
+      "output_parity": {
+        "cosine_similarity": 0.999906593,
+        "max_absolute_error": 0.024263114,
+        "mean_absolute_error": 0.006004686
+      },
+      "p50_speedup": 1.281611
+    },
+    {
+      "batch_size": 32,
+      "fp32_items_per_second": 932398.08,
+      "fp32_latency_ms": {
+        "p50": 0.03432,
+        "p95": 0.03446
+      },
+      "int8_items_per_second": 601324.803,
+      "int8_latency_ms": {
+        "p50": 0.053216,
+        "p95": 0.053866
+      },
+      "output_parity": {
+        "cosine_similarity": 0.999898529,
+        "max_absolute_error": 0.027367294,
+        "mean_absolute_error": 0.005974432
+      },
+      "p50_speedup": 0.644923
+    }
+  ],
+  "environment": {
+    "architecture": "arm64",
+    "hostname_collected": false,
+    "onnxruntime": "1.27.0",
+    "operating_system": "Darwin",
+    "provider": "CPUExecutionProvider",
+    "python": "3.12.13",
+    "thread_count": 1,
+    "user_identity_collected": false
+  },
+  "gates": {
+    "cosine_similarity_at_least_0_999": true,
+    "int8_faster_for_any_measured_batch": true,
+    "int8_model_smaller": true,
+    "native_arm64": true
+  },
+  "optimization": {
+    "fp32_bytes": 1446989,
+    "fp32_sha256": "65b2eadbdb8d4077d92303f21b60cbbc02a6b12426991cd10a106e3761a94b15",
+    "int8_bytes": 372905,
+    "int8_sha256": "87adfb162f98aa799c2386baedab3d92f78abfca4bb35a34e469fa97e2ca26af",
+    "method": "ONNX Runtime dynamic per-channel INT8 weight quantization",
+    "size_reduction_percent": 74.229
+  },
+  "project": "ArmQuantLab",
+  "protocol": {
+    "batch_sizes": [
+      1,
+      8,
+      32
+    ],
+    "iterations_per_sample": 200,
+    "measured_runs": 40,
+    "timer": "time.perf_counter_ns",
+    "warmup_runs": 10
+  },
+  "schema_version": 1,
+  "workload": {
+    "input_width": 128,
+    "kind": "synthetic_three_layer_mlp",
+    "model_seed": 20260718,
+    "truth_boundary": "Measures runtime optimization and numerical parity only; it does not prove task accuracy or production model quality."
+  }
+}
