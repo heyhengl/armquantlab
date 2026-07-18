@@ -118,7 +118,8 @@ those negative results visible instead of presenting quantization as a universal
 
 - Source repository: `https://github.com/heyhengl/armquantlab`
 - Project/testing URL: `https://github.com/heyhengl/armquantlab`
-- Optional demo video: `https://heyhengl.github.io/armquantlab/`
+- Browser preview: `https://heyhengl.github.io/armquantlab/`
+- Optional rule-compliant demo video: pending public YouTube, Vimeo, or Youku upload
 
 The public repository is the unrestricted test build. It contains the MIT-licensed source,
 deterministic model artifacts, frozen benchmark evidence, and setup/validation commands. It
@@ -137,6 +138,7 @@ requires no login, paid service, cloud account, API key, or private test credent
 - [ ] No local candidate model or derivative is published without a separate license and privacy
   review.
 - [ ] Arm Developer and Devpost personal fields are filled only by the user.
-- [x] The hosted video matches the locally verified MP4/SRT hashes and plays in a signed-out
-  browser with captions.
+- [ ] If the optional video is submitted, its YouTube, Vimeo, or Youku watch page matches the
+  locally verified MP4/SRT hashes and plays signed out with captions. GitHub Pages is a preview
+  and cannot be used as the submission video URL.
 - [ ] Final submission is confirmed free and causes no financial movement.

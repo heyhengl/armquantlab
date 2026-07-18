@@ -88,6 +88,13 @@ See [`submission/VIDEO_BUILD.md`](submission/VIDEO_BUILD.md) for the reproducibl
 [`submission/VIDEO_COMPOSITION.md`](submission/VIDEO_COMPOSITION.md) for the selected visual
 direction and anti-AI-template gate.
 
+The GitHub Pages player is a public preview, not a rule-compliant final video host. The official
+rules allow an optional demo only when it is publicly visible on YouTube, Vimeo, or Youku. The
+verified assets, paste-ready metadata, chapters, captions, disclosures, and financial stop
+conditions are in
+[`submission/YOUTUBE_PUBLICATION_PACKET.md`](submission/YOUTUBE_PUBLICATION_PACKET.md) and
+[`submission/YOUKU_PUBLICATION_PACKET_zh.md`](submission/YOUKU_PUBLICATION_PACKET_zh.md).
+
 ## Arm Create track
 
 The project targets the Mobile AI track: local inference on an Arm-powered laptop with

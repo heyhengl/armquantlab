@@ -33,9 +33,15 @@ A checked item must correspond to a reproducible artifact or public receipt.
 - [x] Create public MIT repository `https://github.com/heyhengl/armquantlab`.
 - [x] Record public commit `e270c9f0cad0a74b822ee0c3d866e1fd1c922d38`.
 - [x] Verify the repository, license, frozen evidence, and installation in a signed-out browser.
-- [x] Publish the MP4 at `https://heyhengl.github.io/armquantlab/` with public judge-accessible visibility.
-- [x] Verify hosted playback and captions in a signed-out browser.
-- [x] Add public repository and video URLs to the Devpost draft.
+- [x] Publish a browser preview at `https://heyhengl.github.io/armquantlab/` and verify playback
+  and captions signed out.
+- [x] Add the public repository and browser-preview URLs to the Devpost draft.
+- [x] Prepare YouTube and Youku publication packets with hashes, captions, disclosure fields,
+  public-visibility checks, and financial stop conditions.
+- [ ] If including the optional video, upload it publicly to YouTube, Vimeo, or Youku; GitHub
+  Pages is not on the official host allowlist.
+- [ ] Verify the allowed-host playback, duration, visibility, AI/synthetic disclosure, and
+  captions signed out, then add that watch URL to Devpost.
 
 ## Devpost and Arm Developer
 
