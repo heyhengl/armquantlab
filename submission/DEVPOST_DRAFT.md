@@ -118,7 +118,7 @@ those negative results visible instead of presenting quantization as a universal
 
 - Source repository: `https://github.com/heyhengl/armquantlab`
 - Project/testing URL: `https://github.com/heyhengl/armquantlab`
-- Optional demo video: `{PUBLIC_VIDEO_URL}`
+- Optional demo video: `https://heyhengl.github.io/armquantlab/`
 
 The public repository is the unrestricted test build. It contains the MIT-licensed source,
 deterministic model artifacts, frozen benchmark evidence, and setup/validation commands. It
@@ -126,17 +126,17 @@ requires no login, paid service, cloud account, API key, or private test credent
 
 ## Truth-boundary checklist
 
-- [x] Public repository and commit `e270c9f0cad0a74b822ee0c3d866e1fd1c922d38` are verified in a signed-out browser.
+- [x] Public repository and public-site commit `b614f64f41e0d18ff069858365db16a2dfc55f4d` are verified in a signed-out browser.
 - [ ] Live form track is exactly `Track 3: Mobile AI`.
 - [x] MIT license is visible at the top of the repository.
 - [x] Project/testing URL is free, unrestricted, and opens without login.
-- [ ] Submission-period creation and third-party open-source dependencies are disclosed.
-- [ ] AI coding assistance, code-generated visuals, and synthetic narration are disclosed truthfully.
-- [ ] Measured numbers match the checked-in benchmark report exactly.
-- [ ] No statement generalizes synthetic workload performance to production models.
+- [x] Submission-period creation and third-party open-source dependencies are disclosed.
+- [x] AI coding assistance, code-generated visuals, and synthetic narration are disclosed truthfully.
+- [x] Measured numbers match the checked-in benchmark report exactly.
+- [x] No statement generalizes synthetic workload performance to production models.
 - [ ] No local candidate model or derivative is published without a separate license and privacy
   review.
 - [ ] Arm Developer and Devpost personal fields are filled only by the user.
-- [ ] The hosted video matches the locally verified MP4/SRT hashes and plays in a signed-out
+- [x] The hosted video matches the locally verified MP4/SRT hashes and plays in a signed-out
   browser with captions.
 - [ ] Final submission is confirmed free and causes no financial movement.

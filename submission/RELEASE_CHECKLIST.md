@@ -33,9 +33,9 @@ A checked item must correspond to a reproducible artifact or public receipt.
 - [x] Create public MIT repository `https://github.com/heyhengl/armquantlab`.
 - [x] Record public commit `e270c9f0cad0a74b822ee0c3d866e1fd1c922d38`.
 - [x] Verify the repository, license, frozen evidence, and installation in a signed-out browser.
-- [ ] Publish the MP4 with public or unlisted judge-accessible visibility.
-- [ ] Verify hosted playback and captions in a signed-out browser.
-- [ ] Add public repository and video URLs to the Devpost draft.
+- [x] Publish the MP4 at `https://heyhengl.github.io/armquantlab/` with public judge-accessible visibility.
+- [x] Verify hosted playback and captions in a signed-out browser.
+- [x] Add public repository and video URLs to the Devpost draft.
 
 ## Devpost and Arm Developer
 
