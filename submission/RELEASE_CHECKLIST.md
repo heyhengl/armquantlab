@@ -30,9 +30,9 @@ A checked item must correspond to a reproducible artifact or public receipt.
 
 ## Public release
 
-- [ ] Create a public MIT repository.
-- [ ] Record the public commit hash.
-- [ ] Verify the repository, license, frozen evidence, and installation in a signed-out browser.
+- [x] Create public MIT repository `https://github.com/heyhengl/armquantlab`.
+- [x] Record public commit `e270c9f0cad0a74b822ee0c3d866e1fd1c922d38`.
+- [x] Verify the repository, license, frozen evidence, and installation in a signed-out browser.
 - [ ] Publish the MP4 with public or unlisted judge-accessible visibility.
 - [ ] Verify hosted playback and captions in a signed-out browser.
 - [ ] Add public repository and video URLs to the Devpost draft.
@@ -41,7 +41,7 @@ A checked item must correspond to a reproducible artifact or public receipt.
 
 - [ ] User fills required personal fields only inside the platform.
 - [ ] Select the live label `Track 3: Mobile AI`; do not use `Track 1`.
-- [ ] Confirm the project/testing URL is free, unrestricted, and requires no login.
+- [x] Confirm the project/testing URL is free, unrestricted, and requires no login.
 - [ ] Disclose submission-period creation, open-source dependencies, AI coding assistance, code-generated visuals, and synthetic narration.
 - [ ] Confirm eligibility and live final fields on the submission date.
 - [ ] Confirm final submission is completely free and causes no financial movement.

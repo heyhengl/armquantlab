@@ -1,7 +1,7 @@
 # ArmQuantLab — Devpost submission draft
 
-> Draft only. The project has not been registered or submitted. Replace `[pending]` links only
-> after public evidence exists.
+> Draft only. The project has not been registered or submitted. The repository URL is published
+> and anonymously verified; the optional video and Devpost project URLs remain pending.
 
 ## Project name
 
@@ -116,8 +116,8 @@ those negative results visible instead of presenting quantization as a universal
 
 ## Public links
 
-- Source repository: `{PUBLIC_GITHUB_REPOSITORY_URL}`
-- Project/testing URL: `{PUBLIC_GITHUB_REPOSITORY_URL}`
+- Source repository: `https://github.com/heyhengl/armquantlab`
+- Project/testing URL: `https://github.com/heyhengl/armquantlab`
 - Optional demo video: `{PUBLIC_VIDEO_URL}`
 
 The public repository is the unrestricted test build. It contains the MIT-licensed source,
@@ -126,10 +126,10 @@ requires no login, paid service, cloud account, API key, or private test credent
 
 ## Truth-boundary checklist
 
-- [ ] Public repository and commit hash are verified in a signed-out browser.
+- [x] Public repository and commit `e270c9f0cad0a74b822ee0c3d866e1fd1c922d38` are verified in a signed-out browser.
 - [ ] Live form track is exactly `Track 3: Mobile AI`.
-- [ ] MIT license is visible at the top of the repository.
-- [ ] Project/testing URL is free, unrestricted, and opens without login.
+- [x] MIT license is visible at the top of the repository.
+- [x] Project/testing URL is free, unrestricted, and opens without login.
 - [ ] Submission-period creation and third-party open-source dependencies are disclosed.
 - [ ] AI coding assistance, code-generated visuals, and synthetic narration are disclosed truthfully.
 - [ ] Measured numbers match the checked-in benchmark report exactly.
