@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="ArmQuantLab public demo: reproducible FP32-to-INT8 ONNX optimization evidence on Arm64."
+    />
+    <title>ArmQuantLab — Public demo</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./player.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="masthead">
+        <h1 class="identity">ArmQuantLab</h1>
+      </header>
+
+      <section class="stage" aria-labelledby="headline">
+        <div class="intro">
+          <h2 id="headline">Measure the optimization. Keep the <span class="accent">limits</span> visible.</h2>
+          <p class="summary">
+            A reproducible FP32-to-INT8 ONNX study on native Arm64 with hashes, per-batch measurements,
+            and an explicit non-universal result boundary.
+          </p>
+          <a class="source-link" href="https://github.com/heyhengl/armquantlab">View source on GitHub</a>
+        </div>
+
+        <div class="player-frame" id="demo">
+          <video
+            controls
+            preload="metadata"
+            playsinline
+            poster="./media/ArmQuantLab_Poster.png"
+            data-captions="./media/ArmQuantLab_Demo_en.srt"
+          >
+            <source src="./media/ArmQuantLab_Demo_1080p_en.mp4" type="video/mp4" />
+            Your browser does not support HTML video. Download the MP4 below.
+          </video>
+        </div>
+      </section>
+
+      <section class="facts" aria-label="Demo facts">
+        <div class="fact">171.777 s</div>
+        <div class="fact">Native Arm64 evidence</div>
+        <div class="fact">Limits disclosed</div>
+      </section>
+
+      <footer class="foot">
+        <div class="downloads">
+          <a href="./media/ArmQuantLab_Demo_1080p_en.mp4" download>MP4</a>
+          <a href="./media/ArmQuantLab_Demo_en.srt" download>Transcript (.srt)</a>
+        </div>
+        <p class="disclosure">
+          Built from public source and frozen benchmark evidence. No private trading strategy, account data,
+          credentials, or customer data are present. AI coding and writing assistance, code-generated visuals,
+          and synthetic narration were used and reviewed against the published repository evidence.
+        </p>
+      </footer>
+    </main>
+    <script src="./player.js"></script>
+  </body>
+</html>
